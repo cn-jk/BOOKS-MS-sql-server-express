@@ -1,0 +1,21 @@
+1. login: administratorom;
+
+2. look properties db where location files: .mdf, .ldf
+BOOKS.mdf ----- C:\Program Files (x86)\Microsoft SQL Server\MSSQL12.SQLEXPRESS\MSSQL\DATA
+BOOKS_log.ldf - C:\Program Files (x86)\Microsoft SQL Server\MSSQL12.SQLEXPRESS\MSSQL\DATA
+
+3. deattach db: BOOKS;
+
+4. copy files: .mdf, .ldf;
+
+5. reconnection, relogin(administrator) to ms sql server;
+
+6. Database -- Attach -- Add files -- Ok
+
+7. Database -- Refresh.
+
+8. reconnection, relogin(books_login) to ms sql server;
+
+
+
+
